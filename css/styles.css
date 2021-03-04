@@ -1,0 +1,90 @@
+.body{
+    margin: 0;
+    font-family: Sans-serif;
+}
+.nav-bar{
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 960px){
+    .nav-bar{
+        background-color: #77c300;
+        padding: 20px;
+    }
+}
+.nav-brand{
+
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 960px){
+    .nav-list{
+        display: none;
+    }
+}
+.nav-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+.vertical-line{
+    background-color: lightgray;
+    width: 1px;
+    height: 100%;
+    margin-left: 10px;
+}
+.second-nav-bar{
+    background-color: #77c300;
+    padding: 25px 50px;
+    border-bottom: 2px solid white;
+    display: flex;
+}
+@media screen and (max-width: 960px){
+    .second-nav-bar{
+        display: none;
+    }
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.carosal{
+    background-image: url('../images/carosal-background.jpg');
+    background-size: cover;
+    padding: 10px 300px;
+}
+.caro-inner{
+    padding: 150px 50px;
+}
+.fab{
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #77c300;
+}
+.far{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #77c300;
+}
+.fa-search{
+    color: white;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.nav-mobile{
+    display: none;
+}
+@media screen and (max-width: 960px){
+    .nav-mobile{
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+        color: white;
+    }
+}
