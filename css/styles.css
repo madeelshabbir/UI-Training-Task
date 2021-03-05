@@ -7,21 +7,18 @@
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 970px){
     .nav-bar{
         background-color: #77c300;
         padding: 20px;
     }
-}
-.nav-brand{
-
 }
 .nav-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 970px){
     .nav-list{
         display: none;
     }
@@ -44,7 +41,7 @@
     border-bottom: 2px solid white;
     display: flex;
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 970px){
     .second-nav-bar{
         display: none;
     }
@@ -57,10 +54,34 @@
 .carosal{
     background-image: url('../images/carosal-background.jpg');
     background-size: cover;
-    padding: 10px 300px;
+    padding: 200px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .caro-inner{
-    padding: 150px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #493d35;
+    padding: 10px 20px;
+}
+.caro-btn{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+}
+@media screen and (max-width: 970px){
+    .caro-btn{
+        display: none;
+    }
 }
 .fab{
     margin-left: 15px;
@@ -80,11 +101,125 @@
 .nav-mobile{
     display: none;
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 970px){
     .nav-mobile{
         display: flex;
         align-items: center;
         font-size: x-large;
         color: white;
     }
+}
+.caro-ques{
+    color: #77c300;
+}
+.caro-text{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 0;
+}
+.fa-arrow-right{
+    color: white;
+    margin-right: 20px;    
+}
+.caro-inner-btn{
+    background-color: #77c300;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 20px;
+}
+@media screen and (max-width: 970px){
+    .caro-inner-btn{
+        padding: 5px 10px;
+        font-size: small;
+        font-weight: bold;
+    }
+}
+.under-caro{
+    display: flex;
+    padding: 50px;
+}
+@media screen and (max-width: 970px){
+    .under-caro{
+        display: block;
+    }
+}
+.under-caro .img-por{
+    width: 30%;
+}
+@media screen and (max-width: 970px){
+    .under-caro .img-por{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.under-caro .text-por{
+    width: 70%;
+    font-family: serif;
+    color: #565656;
+    padding-right: 20px;
+}
+@media screen and (max-width: 970px){
+    .under-caro .text-por{
+        width: 100%;
+    }
+}
+.under-caro .text-por .first-head{
+    color: #77c300;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 10px;
+}
+.under-caro .text-por .second-head{
+    font-size: x-large;
+    margin: 10px 0;
+}
+.under-caro .text-por .para{
+    font-family: sans-serif;
+    text-align: justify;
+}
+.img-uc{
+    margin: 15px 0;
+}
+.uc-row{
+    display: flex;
+}
+@media screen and (max-width: 970px){
+    .uc-row{
+        display: block;
+    }
+}
+.uc-media{
+    display: flex;
+    font-family: serif;
+    color: #565656;
+    width: 50%;
+}
+@media screen and (max-width: 970px){
+    .uc-media{
+        width: 100%;
+    }
+}
+.uc-media .media-img{
+    width: 60px;
+    height: 60px;
+}
+.uc-media .media-text{
+    padding: 0 10px;
+}
+.uc-media .media-text .media-heading{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.uc-media .media-text .media-para{
+    text-align: justify;
 }
